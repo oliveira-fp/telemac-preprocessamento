@@ -1,6 +1,6 @@
 # Pré-processamento Operacional para TELEMAC
 
-![TELEMAC Logo](https://www.opentelemac.org/images/opentelemac_logo.png)  
+![Hydrodynamic Modeling](https://img.shields.io/badge/Hydrodynamic_Modeling-TELEMAC-0055AA?style=for-the-badge)
 *Sistema de pré-processamento de dados para modelos hidrodinâmicos*
 
 ## 📌 Visão Geral
