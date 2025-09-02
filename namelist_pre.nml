@@ -1,0 +1,40 @@
+
+&atmosferico
+       ncfile_eta='../dados/Eta03_BESM_2025061700_2D_recorte.nc',
+       dt = 3600,
+       xlon = 'lon',
+       ylat = 'lat',
+       ttime = 'time',
+       uwind = 'u10m',
+       vwind = 'v10m'
+ /
+
+ &ssh_config
+       ncfile_mom='../dados/20250617.ocean_telemac_recorte.nc',
+       xlon = 'xh',
+       ylat = 'yh',
+       ttime = 'time',
+       hsea = 'ssh',
+ /
+
+ &temp_salt
+       ncfile_mom='../dados/20250617.ocean_telemac_recorte.nc',
+       xlon = 'xh',
+       ylat = 'yh',
+       ttime = 'time',
+       sigmalev = 'sigma2_l',
+       ttemp = 'thetao',
+       salt = 'so',
+ /
+
+ &corrente
+       ncfile_mom='../dados/20250617.ocean_telemac_recorte.nc',
+       xlon = 'xh',
+       xlon2= 'xq',
+       ylat = 'yh',
+       ttime = 'time',
+       sigmalev = 'sigma2_l',
+       uwind = 'uo',
+       vwind = 'vo'
+ /
+
